@@ -98,7 +98,7 @@ def model_train(input_shape, filepath, model_save_path):
 
 
 if __name__ == '__main__':
-    filepath = 'lianshang_train.csv'
+    filepath = 'train.csv'
     input_shape = 50
-    model_save_path = './lianshang_model.h5'
+    model_save_path = './model.h5'
     model_train(input_shape, filepath, model_save_path)
